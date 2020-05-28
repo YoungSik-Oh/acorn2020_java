@@ -2,6 +2,7 @@ package test.main;
 
 public class MainClass08 {
 
+
 	public static void main(String[] args) {
 		// String type
 		String str="abcde12345";
@@ -12,7 +13,6 @@ public class MainClass08 {
 		// 소문자를 대문자로 변환한 문자열 얻어내기
 		String result=str.toUpperCase();
 		
-		
 	}
+};
 
-}
