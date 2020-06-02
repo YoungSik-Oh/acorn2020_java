@@ -1,5 +1,6 @@
 package test.main;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class MainClass06 {
@@ -13,18 +14,18 @@ public class MainClass06 {
 		 * 
 		 */
 		
-		String[] input = new String[5];
-		
-		for(int i= 0; i< input.length; i++) {
-			Scanner scan = new Scanner(System.in);
-			System.out.println("입력하십시오");
-			String str = scan.nextLine();
-			input[i] = str;	
-		}
-		for(int i= 0; i< input.length; i++) {
-			System.out.println(input[i]);
-		
-		}
+//		String[] input = new String[5];
+//		
+//		for(int i= 0; i< input.length; i++) {
+//			Scanner scan = new Scanner(System.in);
+//			System.out.println("입력하십시오");
+//			String str = scan.nextLine();
+//			input[i] = str;	
+//		}
+//		for(int i= 0; i< input.length; i++) {
+//			System.out.println(input[i]);
+//		
+//		}
 		
 		
 				
@@ -36,6 +37,17 @@ public class MainClass06 {
 		 * 	콘솔창에 순서대로 출력하는 코드를 작성
 		 */
 		
+		
+			int[] ran=new int[6];
+			for(int i=0; i < ran.length; i++) {
+				Random r=new Random();
+				int lottoNum=r.nextInt(45)+1;
+				ran[i]=lottoNum;
+			}
+			for(int i=0; i < ran.length; i++) {
+				System.out.println(ran[i]);
+			}
+			
 	}
 
 }
