@@ -12,7 +12,21 @@ public class MainClass06 {
 		 * 	모든 문자열을 콘솔창에 순서대로 출력해라
 		 * 
 		 */
-	
+		
+		String[] input = new String[5];
+		
+		for(int i= 0; i< input.length; i++) {
+			Scanner scan = new Scanner(System.in);
+			System.out.println("입력하십시오");
+			String str = scan.nextLine();
+			input[i] = str;	
+		}
+		for(int i= 0; i< input.length; i++) {
+			System.out.println(input[i]);
+		
+		}
+		
+		
 				
 		
 		/*
