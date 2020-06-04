@@ -12,7 +12,9 @@ public class MainClass06 {
 		 * 	모두다 입력 받은 후 for 문을 이용해서 배열에 저장된 
 		 * 	모든 문자열을 콘솔창에 순서대로 출력해라
 		 * 
-		 */
+		 * 
+		 * 
+		 */		
 		
 //		String[] input = new String[5];
 //		
@@ -27,6 +29,25 @@ public class MainClass06 {
 //		
 //		}
 		
+//		//Scanner 객체를 생성해서 참조값을 지역변수에 담기
+//		Scanner scan= new Scanner(System.in);
+//		
+//		// 문자열(String) 5개르 담을 수 있는 배열 객체 생성해서 참조값을 지역변수에 담기
+//		String[] msgs=new String[5]; 
+//		
+//		//5번 문자열을 입력 받기 위해 for 문을 구성한다.
+//		for(int i=0; i<5; i++) {
+//			System.out.println("문자열 입력:");
+//			String str=scan.nextLine();
+//			// 입력받은 문자열의 참조값을 배열에 순서대로 담기
+//			msgs[i]=str;			
+//		}
+//		for(int i=0; i < msgs.length; i++) {
+//			// i 번째 방에 있는 String 객체의 참조값을 불러온다.
+//			String tmp=msgs[i];
+//			// 콘솔에 출력한다
+//			System.out.println(tmp);
+//		}
 		
 				
 		
@@ -44,8 +65,12 @@ public class MainClass06 {
 				int lottoNum=r.nextInt(45)+1;
 				ran[i]=lottoNum;
 			}
+//			for (int tmp:ran) {
+//				System.out.println(tmp);
+//			}
 			for(int i=0; i < ran.length; i++) {
 				System.out.println(ran[i]);
+				
 			}
 			
 	}
