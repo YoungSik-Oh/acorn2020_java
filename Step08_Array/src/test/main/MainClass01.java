@@ -2,6 +2,7 @@ package test.main;
 
 public class MainClass01 {
 	public static void main(String[] args) {
+
 		
 		// int type 5 개를 저장하고 있는 배열
 		int[] nums= {10, 20, 30, 40, 50};
@@ -24,8 +25,6 @@ public class MainClass01 {
 		int size=nums.length;
 	}
 }
-
-
 
 
 
