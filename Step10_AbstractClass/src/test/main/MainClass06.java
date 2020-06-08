@@ -27,7 +27,6 @@ public class MainClass06 {
 		class OurWeapon extends Weapon{
 			@Override
 			public void attack() {
-				// TODO Auto-generated method stub
 				System.out.println("아몰랑");
 			}
 		}
