@@ -21,6 +21,7 @@ public class MainClass01 {
 		Object p7=p3;
 		//String str=p3; // 오류 ...
 		
+		
 		// 캐스팅을 이용하면 사용가능
 		HandPhone p8= (HandPhone) p5;
 		p8.call();
@@ -33,6 +34,8 @@ public class MainClass01 {
 		byte b2 = (byte) i2;
 		
 		SmartPhone p9=new SmartPhone();
+		p9.doInternet();
+		p9.takePicture();
 		
 	}
 

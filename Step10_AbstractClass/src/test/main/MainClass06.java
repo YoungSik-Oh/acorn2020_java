@@ -29,12 +29,19 @@ public class MainClass06 {
 			public void attack() {
 				System.out.println("아몰랑");
 			}
+			public void fly() {
+				System.out.println("fly");
+			}
 		}
 		Weapon w2=new OurWeapon();
 		useWeapon(w2);
+		OurWeapon w3=new OurWeapon();
+		w3.fly();
 	}
+		
 	public static void useWeapon(Weapon w) {
 		w.prepare();
 		w.attack();
+		
 	}
 }
