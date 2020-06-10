@@ -27,7 +27,7 @@ public class MainClass07 {
 		
 		//	랜덤하게 출력할 문자열을 미리 배열에 담아 놓는다.
 		String[] items= {"cherry", "apple", "banana" , "melon" , "7"};
-			// 랜덤한 숫자를 얻어내기 뒤한 객체
+				// 랜덤한 숫자를 얻어내기 뒤한 객체
 				Random ran = new Random();
 				// 랜덤하게 얻어낸 3개의 정수를 저장할 배열
 				int[] nums=new int[3];

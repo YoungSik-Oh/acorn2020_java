@@ -12,17 +12,17 @@ public class MainClass05 {
 		
 		// 3. 반복문 for 문을 이용해서 각각 사각형의 면적을 콘솔창에 출력
 
-		Rect[] rects = new Rect[3];
-		rects[0]=new Rect(100,200);
-		rects[1]=new Rect(300,400);
-		rects[2]=new Rect(500,600);
-		for (int i=0; i < rects.length; i++) {
-//			int a=rects[i].getArea();
-//			System.out.println(rects[i].getArea());
-//			System.out.println(a);
-			Rect tmp=rects[i];
-			int area=tmp.getArea();
-			System.out.println(area);
+		Rect[] rects=new Rect[3];
+		
+		rects[0]=new Rect(10,20);
+		rects[1]=new Rect(20,30);
+		rects[2]=new Rect(40,50);
+		
+		for(int i=0; i<rects.length; i++) {
+			int a=rects[i].getArea();
+			System.out.println(a);
+			
+			
 		}
 	}
 
