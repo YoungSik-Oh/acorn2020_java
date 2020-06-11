@@ -11,6 +11,8 @@ public class MainClass09 {
 		 * 	3명의 회원정보 (번호, 이름, 주소) 를 HashMap 객체에 담고
 		 * 
 		 * 	HashMap 객체의 참조값을 ArrayList 객체에 순서대로 담아랏
+		 * 
+		 * Map(HashMap은 순서가 중요하지 않을때 사용)
 		 */
 		Map<String,Object> map1=new HashMap<>();
 		map1.put("num", 1);
